@@ -211,3 +211,24 @@ background: #ecd800f3;
 }
 
 }
+/* Inputs */
+
+.input{
+       padding:1.5rem 3.5rem;
+       border:1px solid #ccc;
+       border-radius: 30px;
+       outline: 0;
+       color: var(--color-headings);
+       font-size: 2rem;
+
+
+}
+::placeholder{
+        color: #cdcbd7;
+
+}
+@media screen and (min-width:1024px){
+        .input{
+                font-size:1.5rem ;
+        }
+}
