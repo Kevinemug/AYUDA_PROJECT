@@ -180,6 +180,7 @@ margin: 2rem;
     font-size: 1.8rem;    
     font-weight:600 ;
     margin: 1rem 0;
+    outline: 0;
     padding:2rem 3rem ;
     text-align: center;
     text-transform: uppercase;
@@ -194,6 +195,13 @@ margin: 2rem;
 .btn--outline:hover{
         background: var(--color-headings);
         color: #fff;
+}
+.btn .icon{
+     width:2rem;
+     height:2rem; 
+     margin-right: 1rem;
+     /* vertical-align: ; */
+     vertical-align: middle;
 }
 .btn--primary{
         background:var(--color-primary);
@@ -215,7 +223,7 @@ background: #00c8eb;
         color: #fff;
 }
 .btn--accent:hover{
-background: #ecd800f3;
+background: #ec0000f3;
 }
 .btn--streched{
         padding-left: 6rem;
@@ -255,7 +263,7 @@ background: #ecd800f3;
 .input-group .input{
         border: 0;
         flex-grow: 1;
-        padding: 1.5rem 1rem;
+        padding: 1.5rem 2rem;
 
 }
 
@@ -603,5 +611,29 @@ opacity: 1;}
         .hero__content{
                 text-align:left;
                 align-self: center;
+        }
+}
+/* Domain block */
+.block-domain .input-group{
+        box-shadow: 0 0 30px 20px #e6ebee;
+        border: 0;
+        margin: 4rem auto;
+        max-width: 670px;
+}
+.block-domain__prices{
+     display: grid;  
+     grid-template-columns: repeat(3,1fr); 
+     grid-template-rows: repeat(2,6rem);
+     padding: 2.4rem;
+     font-size: 2rem;
+     font-weight: 600;
+     justify-items:center ;
+     max-width:700px ;
+     margin: 0 auto;
+}
+
+@media screen and (min-width:768px){
+        .block-domain__prices{
+                 grid-template-columns:repeat(auto-fit,minmax(10rem,1fr)) ; /* for if tomorrow we decide to add another item its size will be calculated accordingly. */
         }
 }
