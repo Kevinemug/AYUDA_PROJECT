@@ -529,7 +529,10 @@ transform: rotate(0);
 .collapsible--expanded .collapsible__content{
 max-height: 100vh;
 opacity: 1;}
+
 /* blocks */
+
+
 .block{
         --padding-vertical:6rem;
         padding: var(--padding-vertical) 2rem;
@@ -540,6 +543,7 @@ opacity: 1;}
 }
 .block__header{
         text-align: center;
+        margin-bottom: 4rem;
 }
 .block--dark{
        background: #000; 
