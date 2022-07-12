@@ -1,0 +1,35 @@
+.input{
+
+    height: 2rem;
+    width:20rem;
+    border-radius:10rem;
+    border:none;
+}
+.search{width:10rem;
+background-color: orangered;
+font-size:20px;
+color:antiquewhite;
+border-style:none;
+    border-radius:5rem;
+}
+.container{
+    margin-top: 10%;
+    margin-left: 40%;
+    width:30rem;
+    border:2px solid lightgrey;
+    border-radius: 15rem;
+}
+.card{
+    border-radius: 7px;
+    background-color: black; 
+    box-shadow: 0 0 70px 50px #f3f3;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    width:30rem;
+}
+.inputagain{
+    width:10rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+}

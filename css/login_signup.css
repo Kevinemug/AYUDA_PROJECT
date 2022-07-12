@@ -1,0 +1,69 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    align-items: center;
+    background: #f5f5f5;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6rem;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  .form-signin {
+    max-width: 300px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .form-control {
+    border: 1px solid #ced4da;
+    outline: 0;
+    transition: border .15s, box-shadow .15s;
+  }
+  
+  .form-control:focus {
+    border: 1px solid #86b7fe;
+    box-shadow: 0 0 0 5px #b9d3fa;
+  }
+  
+  /* One place to define the common properties for buttons and input fields.  */
+  
+  .form-control, .btn {
+    border-radius: 5px;
+    /* The default box-sizing for input fields is content-box. So, any padding we apply to an input 
+    field, increases its width. To ensure that input fields and buttons have the same width, we need
+    to set box-sizing to border-box. */
+    box-sizing: border-box;
+    padding: 1.5rem;
+    /* It's a common technique to set the width of input fields and buttons to 100% so they fill up
+    their container. We can then control their size through their container (in this case form-signin) */
+    width: 100%;
+  }
+  
+  .btn {
+    background: #0d6efd;
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+  }
+  
+  .btn:hover {
+    background: #0759d3;
+  }
+  
+  /* We use this class to add vertical space between different input fields. */
+  
+  .form-group {
+    margin: 1rem 0;
+  }
+  
+  /* A reusable class. */
+  
+  .muted {
+    color: #6c757d;
+  }
