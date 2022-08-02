@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <form action="" method="post">
+        <section class=" block container block-domain" data-aos="zoom-in">
+            <header class="block__header">
+                <h2>Dealing with a difficult assignment question?</h2>
+                <p>Type it here</p>
+            </header>
+            <div class="input-group ">
+                <input type="text" class="input" name="input" placeholder=" Enter assignment question">
+                <button class="btn btn--accent"  type="submit" name="btn"> <svg class="icon icon--white">
+                        <use xlink:href='images/sprite.svg#search'></use>
+                    </svg>
+                    Search
+                </button>
+            </div>
+        </section>
+    </form>
+<div class="display">
+<?php 
+$input=$_GET["input"];
+   if(isset($input)){
+echo $input;
+   }
+
+?>
+</div>
+    <section>
+        <h2>Recent assignments</h2>
+        <ul>
+            <li class="list-item">
+                <a href="https://drive.google.com/file/d/1E2Y7aADf3E1OebqSh6ULlQC49mDDw9H3/view?usp=drive_web&authuser=0"
+                    target="_blank">bicyle rental application</a>
+            </li>
+
+        </ul>
+    </section>
+</body>
+
+</html>
